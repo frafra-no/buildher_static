@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #9abdb9;
+    padding: 0 2em 0em 2em;
+}
+header > h1 {
+    flex-grow: 1;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+header ul {
+    display: flex;  
+    list-style: none;
+    gap: 1em;
+}
+header a {
+    color: initial;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+main img {
+    max-width: 100%;
+}
