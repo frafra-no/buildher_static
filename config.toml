@@ -1,4 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'BuildHer'
 theme = 'buildher'
+
+[params]
+facebook = "https://www.facebook.com/profile.php?id=100088918615684"
+instagram = "https://www.instagram.com/buildhercollective/"
